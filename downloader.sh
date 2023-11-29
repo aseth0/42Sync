@@ -24,6 +24,5 @@ curl -o "$config_dir/sync42repo.sh" "$script_url"
 chmod +x "$config_dir/sync42repo.sh"
 
 # Muestra la información del creador del script hasta que el usuario presione 'q'
-echo "Información del creador del script y sugerencia para crear un alias:"
-cat "$config_dir/sync42repo.sh" | less
-
+echo "Don't forget talk to: ucabanil :)"
+echo "Recomended create an alias for the script ;)"
