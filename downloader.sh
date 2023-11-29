@@ -17,7 +17,7 @@ echo "WORKSPACE=$workspace" >> "$env_file"
 
 # Descarga el script 'sync42repo.sh' de GitHub con curl
 # Reemplaza 'url_del_sync42repo' con la URL del script de GitHub que deseas descargar
-script_url="url_del_sync42repo"
+script_url="https://raw.githubusercontent.com/aseth0/42Sync/main/sync42repo.sh"
 curl -o "$config_dir/sync42repo.sh" "$script_url"
 
 # Hace el script ejecutable
